@@ -3,5 +3,8 @@
     <string name="app_title">Age Calculator</string>
     <string name="startBtn">Getting Started</string>
     <string name="calText">Calculate</string>
+    <string name="salam">Welcome</string>
+    <string name="retry">Prev</string>
+
 
 </resources>
