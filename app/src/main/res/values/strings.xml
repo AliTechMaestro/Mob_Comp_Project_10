@@ -2,5 +2,6 @@
     <string name="app_name">AgeCalculator</string>
     <string name="app_title">Age Calculator</string>
     <string name="startBtn">Getting Started</string>
+    <string name="calText">Calculate</string>
 
 </resources>
