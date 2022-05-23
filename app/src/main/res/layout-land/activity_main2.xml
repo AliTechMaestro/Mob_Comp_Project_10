@@ -10,52 +10,48 @@
         android:id="@+id/imageView2"
         android:layout_width="323dp"
         android:layout_height="272dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="49dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="TODO"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/age"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/age" />
 
     <EditText
         android:id="@+id/editName"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="40dp"
         android:hint="Name"
         android:importantForAutofill="no"
         android:textColorHint="#78909C"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editYear"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="36dp"
         android:autofillHints=""
         android:hint="Birth Year"
-        android:textColorHint="#78909C"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/editName" />
 
     <Button
         android:id="@+id/calBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="53dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#00BCD4"
         android:onClick="ageCalculate"
         android:text="@string/calText"
-        app:layout_constraintStart_toStartOf="@+id/editYear"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/editYear" />
 
 
